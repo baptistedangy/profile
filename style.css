@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body  {
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  color: #7000B6;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1;
+}
+
+h1 {
+  color: ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 3;
+  font-weight: bold;
+  color: #330099;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 3;
+  color: #330099;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #CCFFFF;
+  text-decoration: underline;
+}
+
+
+.class-white1 {
+  margin: 10px 30px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.class-white2 {
+  margin: 10px 30px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 1.7em;
+}
+
+ul {
+  padding: 0px;
+  font-size: 20px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.button-grey {
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
+  height: 80px;
+  width: 80px;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.fab {
+  color: white;
+  background-color: grey;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.fab:hover {
+  background-color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
